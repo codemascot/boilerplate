@@ -18,20 +18,20 @@ namespace {{namespace}};
  *
  * @return void
  */
-function {{package_key}}_plugin_activate() {
+function activate() {
      do_action( '{{package_key}}_plugin_activate' );
 }
-register_activation_hook( __FILE__, '{{package_key}}_plugin_activate' );
+register_activation_hook( __FILE__, '__NAMESPACE__ . '\\activate' );
 
 /**
  * Initialize a hook on plugin deactivation.
  *
  * @return void
  */
-function {{package_key}}_plugin_deactivate() {
+function deactivate() {
      do_action( '{{package_key}}_plugin_deactivate' );
 }
-register_activation_hook( __FILE__, '{{package_key}}_plugin_deactivate' );
+register_activation_hook( __FILE__, __NAMESPACE__ . '\\deactivate' );
 
 /**
  * Initialize all the plugin things.
