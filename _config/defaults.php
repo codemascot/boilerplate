@@ -46,7 +46,7 @@ $placeholders = [
 
 			return Validation::validateTrimmed( $placeholder );
 		},
-		'default'     => 'Awesome Package',
+		'default'     => 'Awesome WordPress Plugin',
 	],
 	'package_key' => [
 		'name'        => 'Package name in lowercase',
@@ -89,7 +89,7 @@ $placeholders = [
 		},
 		'default'     => function ( $placeholders ) {
 
-			return SetupHelper::getPascalCase( $placeholders[ 'package' ][ 'value' ] );
+			return $placeholders['vendor']['value'] . '\\' . SetupHelper::getPascalCase( $placeholders[ 'package' ][ 'value' ] );
 		},
 	],
 	/**

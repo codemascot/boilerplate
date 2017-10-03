@@ -21,7 +21,7 @@ namespace {{namespace}};
 function activate() {
      do_action( '{{package_key}}_plugin_activate' );
 }
-register_activation_hook( __FILE__, '__NAMESPACE__ . '\\activate' );
+register_activation_hook( __FILE__, __NAMESPACE__ . '\\activate' );
 
 /**
  * Initialize a hook on plugin deactivation.
