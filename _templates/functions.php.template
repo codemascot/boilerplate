@@ -1,0 +1,10 @@
+<?php # -*- coding: utf-8 -*-
+
+/**
+ * {{package}}
+ *
+ * Textdomain: {{textdomain}}
+ * Author:     {{author}}
+ * License:    {{license}}
+ */
+namespace {{namespace}};
