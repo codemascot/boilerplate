@@ -4,13 +4,15 @@ This tool is based on top of [`brightnucleus/boilerplate`](https://github.com/br
 
 ## Usage
 
-All you need is at least PHP 5.6 and [composer](https://getcomposer.org/) installed. 
+All you need is at least PHP 5.6 with [Git](https://git-scm.com/) and [composer](https://getcomposer.org/) installed. 
 
 ```
-$ composer create-project rnaby/boilerplate <DIRECTORY>
+$ git clone git@github.com:rnaby/boilerplate.git <DIRECTORY>
+$ cd <DIRECTORY>
+$ composer install
 ```
 
-After composer has fetched some dependencies, you will get asked some question about the new package:
+After composer has fetched some dependencies and installed them, you will get asked some question about the new package:
 
 ```
 > TheDramatistBoilerplate\Setup::run
