@@ -1,0 +1,10 @@
+/**
+ * Theme Name:  {{package}}
+ * Theme URI:   https://github.com/rnaby
+ * Description: {{description}}
+ * Author:      {{vendor}}
+ * Author URI:  http://rnaby.github.io/
+ * Version:     dev-master
+ * Textdomain:  {{textdomain}}
+ * License:     {{license}}
+ */
