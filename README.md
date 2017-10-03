@@ -70,18 +70,18 @@ The structure of the directory depends on the type of package you choose. For ex
 
 ## Acknowledgment
 
-This package is build on top of the [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) package by [Alain Schlesser](http://www.alainschlesser.com/) and the [`inpsyde/boilerplate`] (https://github.com/inpsyde/boilerplate) package by [Inpsyde](https://inpsyde.com/).
+This package is build on top of the [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) package by [Alain Schlesser](http://www.alainschlesser.com/) and the [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) package by [Inpsyde](https://inpsyde.com/).
 
 ## Crafted by Khan M Rashedun-Naby
 
-I'm a professional web developer and I forked this repository form [`inpsyde/boilerplate`] (https://github.com/inpsyde/boilerplate) to use for my personal project.
+I'm a professional web developer and I forked this repository form [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) to use for my personal project.
 
 ## License
 
 Copyright (c) 2016 Inpsyde GmbH
 
-Good news, this plugin is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website.
+Good news, this boilerplate is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website.
 
 ## Contributing
 
-All feedback / bug reports / pull requests are welcome. But keep in mind this package is used for the daily work at Inpsyde.
+All feedback / bug reports / pull requests are welcome.
