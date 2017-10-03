@@ -1,6 +1,6 @@
 # TheDramatist Boilerplate
 
-This tool is based on top of [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) and the [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) package by [Inpsyde](https://inpsyde.com/). It's goal is to simplify and speed up the process of creating new packages for the daily WordPress work. It's focused on creating composer packages of type `wordpress-plugin`, `wordpress-theme`, `library` and `project` with the default directory structure and meta files (`phpunit.xml.dist`, `composer.json` and so on) but without any code. The created structure follows the Inpsyde Codex.
+This is a boilerplate for WordPress with modern PHP development approach. It's goal is to simplify and speed up the process of creating new packages for the daily WordPress work. It's focused on creating composer packages of type `wordpress-plugin`, `wordpress-theme`, `library` and `project` with the default directory structure and meta files (`phpunit.xml.dist`, `composer.json` and so on) with the minimal amount of code needed for basic structure.
 
 ## Usage
 
@@ -77,7 +77,7 @@ This package is build on top of the [`brightnucleus/boilerplate`](https://github
 
 ## Crafted by Khan M Rashedun-Naby
 
-I'm a professional web developer and I forked this repository form [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) to use for my personal project.
+I'm a professional web developer and I crafted this boilerplate according to my need. It's still evolving and I have plans to add more features to it in future. 
 
 ## License
 
