@@ -53,6 +53,8 @@ function initialize() {
 		/**
 		 * Calling modules.
 		 */
+         
+        // Like below-
 		// ( new AccountWidgetInit\AccountWidgetInit() )->init();
 
 	} catch ( \Throwable $throwable ) {
