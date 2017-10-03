@@ -78,7 +78,7 @@ I'm a professional web developer and I forked this repository form [`inpsyde/boi
 
 ## License
 
-Copyright (c) 2016 Inpsyde GmbH
+Copyright (c) 2016 Khan M Rashedun-Naby
 
 Good news, this boilerplate is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website.
 
