@@ -53,9 +53,7 @@ function initialize() {
 		/**
 		 * Calling modules.
 		 */
-         
-        // Like below-
-		// ( new AccountWidgetInit\AccountWidgetInit() )->init();
+		( new Assets\AssetsEnqueue() )->init();
 
 	} catch ( \Throwable $throwable ) {
 		if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
