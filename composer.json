@@ -29,7 +29,7 @@
 		}
 	},
 	"scripts": {
-		"post-create-project-cmd": [
+		"post-install-cmd": [
 			"TheDramatistBoilerplate\\Setup::run",
 			"rm -rf _src/ && composer update --ansi"
 		]
