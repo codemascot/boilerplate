@@ -33,14 +33,14 @@ Task Welcome
                                        
 Task AskAboutProjectParameters
 Vendor name [Human readable vendor name (probably your company's name)] Default: "TheDramatist" ?
-Vendor name in lowercase [Used in composer package name (no spaces, [a-z0-9-] )] Default: "inpsyde" ?
-Package name [Human readable package name] Default: "Awesome Package" ? My new theme
-Package name in lowercase [Used for the composer package name (no spaces, [a-z0-9-] )] Default: "my-new-theme" ?
-License [License abbreviation [MIT|GPL]] Default: "MIT" ? GPL
-Package type [The composer type of the package (library, wordpress-plugin, wordpress-theme or project)] Default: "wordpress-plugin" ? wordpress-theme
-Package base namespace [The base PHP namespace of the package.] Default: "TheDramatist" ?
+Vendor name in lowercase [Used in composer package name (no spaces, [a-z0-9-] )] Default: "thedramatist" ?
+Package name [Human readable package name] Default: "Awesome WordPress Plugin" ? My New Plugin
+Package name in lowercase [Used for the composer package name (no spaces, [a-z0-9-] )] Default: "my-new-plugin" ?
+License [License abbreviation [MIT|GPL]] Default: "GPL" ? MIT
+Package type [The composer type of the package (library, wordpress-plugin, wordpress-theme or project)] Default: "wordpress-plugin" ? wordpress-plugin
+Package base namespace [The base PHP namespace of the package.] Default: "TheDramatist\AwesomeWordPressPlugin" ?
 Textdomain [Used for translation in gettext functions] Default: "my-new-plugin" ?
-Package description [The package description in one sentence] Default: "TODO: Describe what this package is all about" ? This is the description of my new theme
+Package description [The package description in one sentence] Default: "TODO: Describe what this package is all about" ? This is the description of My New Plugin
 Author name [The name of the author (in person) of the package] Default: "Khan M Rashedun-Naby" ? Khan M Rashedun-Naby
 Author email [The email of the author.] Default: "naby88@gmail.com" ? naby88@live.com
 ```
