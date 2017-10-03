@@ -1,0 +1,37 @@
+{
+	"name": "rnaby/boilerplate",
+	"description": "Create new package from scratch",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Khan M Rashedun-Naby",
+			"email": "naby88@gmail.com",
+			"homepage": "http://rnaby.github.io",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"TheDramatistBoilerplate\\": "_src/"
+		}
+	},
+	"require": {
+		"php": ">=5.6",
+		"ext-mbstring": "*",
+		"brightnucleus/boilerplate": "~0.1"
+	},
+	"extra": {
+		"brightnucleus-boilerplate": {
+			"config-file": "_config/defaults.php",
+			"config-prefix": "TheDramatist/Boilerplate"
+		}
+	},
+	"scripts": {
+		"post-create-project-cmd": [
+			"TheDramatistBoilerplate\\Setup::run",
+			"rm -rf _src/ && composer update --ansi"
+		]
+	}
+}
