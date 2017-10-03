@@ -12,3 +12,55 @@
  */
 
 namespace {{namespace}};
+
+/**
+ * Initialize a hook on plugin activation.
+ *
+ * @return void
+ */
+function {{package_key}}_plugin_activate() {
+     do_action( '{{package_key}}_plugin_activate' );
+}
+register_activation_hook( __FILE__, '{{package_key}}_plugin_activate' );
+
+/**
+ * Initialize a hook on plugin deactivation.
+ *
+ * @return void
+ */
+function {{package_key}}_plugin_deactivate() {
+     do_action( '{{package_key}}_plugin_deactivate' );
+}
+register_activation_hook( __FILE__, '{{package_key}}_plugin_deactivate' );
+
+/**
+ * Initialize all the plugin things.
+ *
+ * @return void
+ * @throws \Throwable
+ */
+function initialize() {
+
+	try {
+		/**
+		 * Checking if vendor/autoload.php exists or not.
+		 */
+		if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+			/** @noinspection PhpIncludeInspection */
+			require_once __DIR__ . '/vendor/autoload.php';
+		}
+
+		/**
+		 * Calling modules.
+		 */
+		// ( new AccountWidgetInit\AccountWidgetInit() )->init();
+
+	} catch ( \Throwable $throwable ) {
+		if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+			throw $throwable;
+		}
+		do_action( '{{package_key}}_error', $throwable );
+	}
+}
+
+add_action( 'plugins_loaded', __NAMESPACE__ . '\\initialize' );
