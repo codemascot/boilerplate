@@ -1,0 +1,14 @@
+<?php # -*- coding: utf-8 -*-
+
+/**
+ * Plugin Name: {{package}}
+ * Description: {{description}}
+ * Plugin URI:  https://github.com/rnaby
+ * Author:      {{vendor}}
+ * Author URI:  http://rnaby.github.com/
+ * Version:     dev-master
+ * License:     {{license}}
+ * Text Domain: {{textdomain}}
+ */
+
+namespace {{namespace}};
