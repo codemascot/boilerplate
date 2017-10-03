@@ -5,7 +5,7 @@ namespace {{namespace}}\Assets;
 /**
  * Class AssetsEnqueue
  *
- * @package TheDramatist\AwesomeWordPressPlugin\Assets
+ * @package {{namespace}}\Assets
  */
 class AssetsEnqueue {
 
@@ -31,8 +31,8 @@ class AssetsEnqueue {
 	 */
 	public function styles() {
 		wp_enqueue_style(
-			'{$package}-css',
-			plugin_dir_url( __FILE__ ) . '../../assets/css/{$package}.css',
+			'{{package_key}}-css',
+			plugin_dir_url( __FILE__ ) . '../../assets/css/{{package_key}}.css',
 			null,
 			'1.0.0',
 			'all'
@@ -46,8 +46,8 @@ class AssetsEnqueue {
 	public function scripts() {
 		// Registering the script.
 		wp_register_script(
-			'{$package}-js',
-			plugin_dir_url( __FILE__ ) . '../../assets/js/{$package}.js',
+			'{{package_key}}-js',
+			plugin_dir_url( __FILE__ ) . '../../assets/js/{{package_key}}.js',
 			[ 'jquery' ],
 			'1.0.0',
 			true
@@ -58,12 +58,12 @@ class AssetsEnqueue {
 		);
 		// Pass data to myscript.js on page load
 		wp_localize_script(
-			'{$package}-js',
+			'{{package_key}}-js',
 			'WPAjaxObj',
 			$local_js_data
 		);
 		// Enqueueing JS file.
-		wp_enqueue_script( '{$package}-js' );
+		wp_enqueue_script( '{{package_key}}-js' );
 
 	}
 }
