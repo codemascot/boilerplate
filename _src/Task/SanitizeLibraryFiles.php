@@ -30,6 +30,7 @@ class SanitizeLibraryFiles extends Task\AbstractTask {
 		$this->io->write( "Removing assets directories" );
 		$fs->removeDirectory( "{$base_dir}/assets" );
 		$fs->removeDirectory( "{$base_dir}/w-org-assets" );
+		$fs->removeDirectory( "{$base_dir}/src/Assets" );
 	}
 
 }

@@ -40,8 +40,5 @@ class SanitizeAssetsFiles extends Task\AbstractTask {
 
 			return;
 		}
-
-		$this->io->write( "Removing plugin file" );
-		$fs->remove( $plugin_file );
 	}
 }
