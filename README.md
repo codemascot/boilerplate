@@ -1,4 +1,4 @@
-# TheDramatist Boilerplate `v2.0.0`
+# TheDramatist Boilerplate `v2.1.0`
 
 This is a boilerplate for WordPress with modern PHP development approach. It's goal is to simplify and speed up the process of creating new packages for the daily WordPress work. It's focused on creating composer packages of type `wordpress-plugin`, `wordpress-theme`, `library` and `project` with the default directory structure and meta files (`phpunit.xml.dist`, `composer.json` and so on) with the minimal amount of code needed for basic structure.
 
@@ -79,7 +79,7 @@ I'm a professional web developer and I crafted this boilerplate according to my 
 
 Copyright (c) 2017 Khan M Rashedun-Naby
 
-Good news, this boilerplate is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website. *This package is build on top of the [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) package by [Alain Schlesser](http://www.alainschlesser.com/) and the [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) package by [Inpsyde](https://inpsyde.com/).*
+Good news, this boilerplate is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website. *This package is build on top of the [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) package and the [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) package.*
 
 ## Contributing
 
