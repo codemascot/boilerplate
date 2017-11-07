@@ -23,25 +23,45 @@ class SanitizeAssetsFiles extends Task\AbstractTask {
 		$base_dir    = $this->getConfigKey( 'BaseDir' );
 		$type        = $this->getConfigKey( 'Placeholders', 'type' )[ 'value' ];
 		$package     = $this->getConfigKey( 'Placeholders', 'package_key' )[ 'value' ];
-		$css_file 	 = "{$base_dir}/assets/css/plugin.css";
-		$js_file	 = "{$base_dir}/assets/js/plugin.js";
-		$scss_file	 = "{$base_dir}/assets/scss/plugin.scss";
+		$css_file 	 = "{$base_dir}/assets/css/system.css";
+		$js_file	 = "{$base_dir}/assets/js/system.js";
+		$scss_file	 = "{$base_dir}/assets/scss/system.scss";
 
 		if ( 'wordpress-plugin' === $type ) {
 
 			$fs->copyThenRemove(
 				$css_file,
-				"{$base_dir}/assets/css/{$package}.css"
+				"{$base_dir}/assets/css/style.css"
 			);
 
 			$fs->copyThenRemove(
 				$js_file,
-				"{$base_dir}/assets/js/{$package}.js"
+				"{$base_dir}/assets/js/system.js"
 			);
 
 			$fs->copyThenRemove(
 				$scss_file,
-				"{$base_dir}/assets/scss/{$package}.scss"
+				"{$base_dir}/assets/scss/style.scss"
+			);
+
+			return;
+		}
+
+		if ( 'wordpress-theme' === $type ) {
+
+			$fs->copyThenRemove(
+				$css_file,
+				"{$base_dir}/assets/css/theme.css"
+			);
+
+			$fs->copyThenRemove(
+				$js_file,
+				"{$base_dir}/assets/js/system.js"
+			);
+
+			$fs->copyThenRemove(
+				$scss_file,
+				"{$base_dir}/assets/scss/theme.scss"
 			);
 
 			return;

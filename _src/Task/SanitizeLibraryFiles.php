@@ -28,9 +28,16 @@ class SanitizeLibraryFiles extends Task\AbstractTask {
 		$base_dir = $this->getConfigKey( 'BaseDir' );
 		$fs       = new Util\Filesystem;
 		$this->io->write( "Removing assets directories" );
+
 		$fs->removeDirectory( "{$base_dir}/assets" );
 		$fs->removeDirectory( "{$base_dir}/w-org-assets" );
 		$fs->removeDirectory( "{$base_dir}/src/Assets" );
+
+		$this->io->write( "Removing gruntfile.js and package.json" );
+
+		$fs->remove( "{$base_dir}/gruntfile.js" );
+		$fs->remove( "{$base_dir}/package.json" );
+
 	}
 
 }

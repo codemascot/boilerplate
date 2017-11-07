@@ -8,3 +8,13 @@
  * License:    {{license}}
  */
 namespace {{namespace}};
+
+// for checking out the theme directly and running "composer install" within theme folder.
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+	include_once( __DIR__ . '/vendor/autoload.php' );
+}
+
+/**
+ * Enqueuing Assets.
+ */
+( new Assets\AssetsEnqueue() )->init();

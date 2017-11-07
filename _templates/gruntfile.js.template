@@ -83,8 +83,8 @@ module.exports = function (grunt) {
 						["babelify", { "presets": ["es2015"] }]
 					]
 				},
-				src: '<%= config.system.scripts.src %>raw.js',
-				dest: '<%= config.system.scripts.dist %>udp-freelance-test.js'
+				src: '<%= config.system.scripts.src %>',
+				dest: '<%= config.system.scripts.dist %>'
 			}
 		},
 		uglify: {

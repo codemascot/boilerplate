@@ -59,7 +59,7 @@ class AssetsEnqueue {
 		// Pass data to myscript.js on page load
 		wp_localize_script(
 			'{{package_key}}-js',
-			'WPAjaxObj',
+			'{{namespace}}AjaxObj',
 			$local_js_data
 		);
 		// Enqueueing JS file.

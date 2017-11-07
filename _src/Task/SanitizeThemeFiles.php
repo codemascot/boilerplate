@@ -21,7 +21,7 @@ class SanitizeThemeFiles extends Task\AbstractTask {
 	public function complete() {
 
 		$type = $this->getConfigKey( 'Placeholders', 'type' )[ 'value' ];
-		if ( $type === 'wordpress-theme' ) {
+		if ( 'wordpress-theme' === $type ) {
 			return;
 		}
 
