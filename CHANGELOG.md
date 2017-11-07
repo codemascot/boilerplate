@@ -4,7 +4,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [0.1.0]
+## 2017-11-07 [2.0.0]
+Added more options to this template.
+
+### Added
+ * Grunt and SCSS assets management added.
+ * Unit test re configured.
+ * *PHPUnit* directory deleted.
+
+## 2017-10-16 [1.0.0]
 First pre-release. Implements the basic stuff.
 
 ### Added

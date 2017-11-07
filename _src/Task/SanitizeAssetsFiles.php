@@ -25,6 +25,7 @@ class SanitizeAssetsFiles extends Task\AbstractTask {
 		$package     = $this->getConfigKey( 'Placeholders', 'package_key' )[ 'value' ];
 		$css_file 	 = "{$base_dir}/assets/css/plugin.css";
 		$js_file	 = "{$base_dir}/assets/js/plugin.js";
+		$scss_file	 = "{$base_dir}/assets/scss/plugin.scss";
 
 		if ( 'wordpress-plugin' === $type ) {
 
@@ -36,6 +37,11 @@ class SanitizeAssetsFiles extends Task\AbstractTask {
 			$fs->copyThenRemove(
 				$js_file,
 				"{$base_dir}/assets/js/{$package}.js"
+			);
+
+			$fs->copyThenRemove(
+				$scss_file,
+				"{$base_dir}/assets/scss/{$package}.scss"
 			);
 
 			return;

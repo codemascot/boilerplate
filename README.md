@@ -1,10 +1,10 @@
-# TheDramatist Boilerplate
+# TheDramatist Boilerplate `v2.0.0`
 
 This is a boilerplate for WordPress with modern PHP development approach. It's goal is to simplify and speed up the process of creating new packages for the daily WordPress work. It's focused on creating composer packages of type `wordpress-plugin`, `wordpress-theme`, `library` and `project` with the default directory structure and meta files (`phpunit.xml.dist`, `composer.json` and so on) with the minimal amount of code needed for basic structure.
 
 ## Usage
 
-All you need is at least PHP 5.6 with [Git](https://git-scm.com/) and [composer](https://getcomposer.org/) installed. 
+All you need is at least PHP 5.6 with [Git](https://git-scm.com/) and [composer](https://getcomposer.org/) installed.
 
 ```
 $ git clone git@github.com:rnaby/boilerplate.git <DIRECTORY>
@@ -19,18 +19,18 @@ After composer has fetched some dependencies and installed them, you will get as
 Now running setup tasks...
 Task Welcome
   _____   _              ____                                       _     _         _   
- |_   _| | |__     ___  |  _ \   _ __    __ _   _ __ ___     __ _  | |_  (_)  ___  | |_ 
+ |_   _| | |__     ___  |  _ \   _ __    __ _   _ __ ___     __ _  | |_  (_)  ___  | |_
    | |   | '_ \   / _ \ | | | | | '__|  / _` | | '_ ` _ \   / _` | | __| | | / __| | __|
-   | |   | | | | |  __/ | |_| | | |    | (_| | | | | | | | | (_| | | |_  | | \__ \ | |_ 
+   | |   | | | | |  __/ | |_| | | |    | (_| | | | | | | | | (_| | | |_  | | \__ \ | |_
    |_|   |_| |_|  \___| |____/  |_|     \__,_| |_| |_| |_|  \__,_|  \__| |_| |___/  \__|
-                                                                                        
+
   ____            _   _                         _           _          
- | __ )    ___   (_) | |   ___   _ __   _ __   | |   __ _  | |_    ___ 
+ | __ )    ___   (_) | |   ___   _ __   _ __   | |   __ _  | |_    ___
  |  _ \   / _ \  | | | |  / _ \ | '__| | '_ \  | |  / _` | | __|  / _ \
  | |_) | | (_) | | | | | |  __/ | |    | |_) | | | | (_| | | |_  |  __/
  |____/   \___/  |_| |_|  \___| |_|    | .__/  |_|  \__,_|  \__|  \___|
                                        |_|                             
-                                       
+
 Task AskAboutProjectParameters
 Vendor name [Human readable vendor name (probably your company's name)] Default: "TheDramatist" ?
 Vendor name in lowercase [Used in composer package name (no spaces, [a-z0-9-] )] Default: "thedramatist" ?
@@ -77,7 +77,7 @@ This package is build on top of the [`brightnucleus/boilerplate`](https://github
 
 ## Crafted by Khan M Rashedun-Naby
 
-I'm a professional web developer and I crafted this boilerplate according to my need. It's still evolving and I have plans to add more features to it in future. 
+I'm a professional web developer and I crafted this boilerplate according to my need. It's still evolving and I have plans to add more features to it in future.
 
 ## License
 
