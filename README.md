@@ -71,10 +71,6 @@ drwxrwxr-x  2 khan khan    60 Jun 12 17:33 w-org-assets/
 
 The structure of the directory depends on the type of package you choose. For example the `w-org-assets/` directory won't appear for `library` or `project` types.
 
-## Acknowledgment
-
-This package is build on top of the [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) package by [Alain Schlesser](http://www.alainschlesser.com/) and the [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) package by [Inpsyde](https://inpsyde.com/).
-
 ## Crafted by Khan M Rashedun-Naby
 
 I'm a professional web developer and I crafted this boilerplate according to my need. It's still evolving and I have plans to add more features to it in future.
@@ -83,7 +79,7 @@ I'm a professional web developer and I crafted this boilerplate according to my 
 
 Copyright (c) 2017 Khan M Rashedun-Naby
 
-Good news, this boilerplate is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website.
+Good news, this boilerplate is free for everyone! Since it's released under the [MIT License](LICENSE) you can use it free of charge on your personal or commercial website. *Acknowledgment : This package is build on top of the [`brightnucleus/boilerplate`](https://github.com/brightnucleus/boilerplate) package by [Alain Schlesser](http://www.alainschlesser.com/) and the [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) package by [Inpsyde](https://inpsyde.com/).*
 
 ## Contributing
 
