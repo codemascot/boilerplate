@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
  * Theme boilerplate fixed.
  * gruntfile.js and package.json fixed for theme.
  * Library boilerplate fixed.
+ * README.md boilerplate fixed.
 
 ## 2017-11-07 [2.0.0]
 Added more options to this template.

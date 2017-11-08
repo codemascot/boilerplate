@@ -4,11 +4,23 @@
 
 ## Table Of Contents
 
+* [Coding styles and technique](#coding-styles-and-technique)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Crafted by Khan M Rashedun-Naby](#crafted-by-khan)
 * [License](#license)
 * [Contributing](#contributing)
+
+## Coding styles and technique
+* All input data escaped and validated.
+* **TDD:** Some **PHPUnit** tests Has been written.
+* Developed as *Composer* package.
+* **YODA** condition check applied.
+* Maintained ***Right Margin*** carefully. Usually that is 80 characters.
+* Used `true`, `false` and `null` in stead of `TRUE`, `FALSE` and `NULL`.
+* **INDENTATION:** *TABS* has been used in stead of *SPACES*.
+* *PHP Codesniffer* checked.
+* *WordPress VIP* coding standard followed mostly.
 
 ## Installation
 
@@ -24,7 +36,7 @@ $ composer require {{vendor_key}}/{{package_key}}
 
 ## Crafted by Khan M Rashedun-Naby
 
-I'm a professional web developer and I forked this repository form [`inpsyde/boilerplate`](https://github.com/inpsyde/boilerplate) to use for my personal project.
+I'm a professional web developer and I've written this script for my personal usage.
 
 ## License
 
