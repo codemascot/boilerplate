@@ -19,16 +19,16 @@ class SanitizeThemeFiles extends Task\AbstractTask {
 	 * is not a wordpress-theme
 	 */
 	public function complete() {
-
+		$fs       = new Util\Filesystem;
+		$base_dir = $this->getConfigKey( 'BaseDir' );
 		$type = $this->getConfigKey( 'Placeholders', 'type' )[ 'value' ];
 		if ( 'wordpress-theme' === $type ) {
+			$fs->copyThenRemove( "{$base_dir}/theme-files/", $base_dir );
 			return;
 		}
 
-		$fs       = new Util\Filesystem;
-		$base_dir = $this->getConfigKey( 'BaseDir' );
-
 		$this->io->write( "Removing theme files" );
+		$fs->remove( "{$base_dir}/theme-files" );
 		$fs->remove( "{$base_dir}/style.css" );
 		$fs->remove( "{$base_dir}/functions.php" );
 	}
