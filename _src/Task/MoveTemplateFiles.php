@@ -19,13 +19,12 @@ class MoveTemplateFiles extends Task\MoveTemplateFilesToRootFolder {
 	 */
 	public function complete() {
 
-		$filesystem      = new Util\Filesystem();
-		$templatesFolder = $this->getConfigKey( 'Folders', 'templates' );
-		$finder          = new Finder\Finder();
-		$found           = $finder
-			->files()
-			->ignoreDotFiles( FALSE )
-			->in( $templatesFolder );
+		$filesystem      = 	new Util\Filesystem();
+		$templatesFolder = 	$this->getConfigKey( 'Folders', 'templates' );
+		$finder          = 	new Finder\Finder();
+		$found           =	$finder	->files()
+									->ignoreDotFiles( FALSE )
+									->in( $templatesFolder );
 		foreach ( $found as $file ) {
 			$from = $file->getPathname();
 			$to   = $this->getTargetPath( $from );
